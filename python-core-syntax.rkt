@@ -19,5 +19,5 @@ ParselTongue.
   [VNum (n : number)]
   [VClosure (env : Env) (args : (listof symbol)) (body : CExp)])
 
-(define-type Env (hashof symbol CVal))
+(define-type-alias Env (hashof symbol CVal))
 

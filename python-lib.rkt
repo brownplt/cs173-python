@@ -1,5 +1,7 @@
 #lang plai-typed
 
+(require "python-core-syntax.rkt")
+
 #|
 
 Here is a suggestion for how to implement shared runtime functionality -
@@ -10,19 +12,26 @@ that calls the primitive `print`.
 
 |#
 
-(define-type Lib (CExp -> CExp))
+(define-type-alias Lib (CExp -> CExp))
 
-(define print-lambda
+(define print-lambda : CExp
   (CFunc (list 'to-print)
     (CPrim1 'print (CId 'to-print))))
 
+(define-type LibBinding
+  [bind (left : symbol) (right : CExp)])
+
 (define lib-functions
-  (list (cons 'print print-lambda)))
+  (list (bind 'print print-lambda)))
 
 (define (python-lib expr)
-  (define (python-lib/recur libs)
-    (cond [(empty? libs) expr]
-          [(cons? libs)
-           (CLet (car (first libs))
-                 (cdr (first libs))
-                 (python-lib/recur (rest libs)))])))
+  (local [(define (python-lib/recur libs)
+            (cond [(empty? libs) expr]
+                  [(cons? libs)
+                   (type-case LibBinding (first libs)
+                     (bind (name value)
+                           (CLet name value
+                                 (python-lib/recur (rest libs)))))]))]
+    (python-lib/recur lib-functions)))
+
+
