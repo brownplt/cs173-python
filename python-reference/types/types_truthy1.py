@@ -1,0 +1,8 @@
+if None: raise ('None is true instead of false')
+if 0: raise ('0 is true instead of false')
+if 0.0: raise ('0.0 is true instead of false')
+if '': raise ('\'\' is true instead of false')
+if not 1: raise ('1 is false instead of true')
+if not 1.0: raise ('1.0 is false instead of true')
+if not 'x': raise ('\'x\' is false instead of true')
+if not {'x': 1}: raise ('{\'x\': 1} is false instead of true')
