@@ -24,11 +24,19 @@
   ("--interp" "Interpret stdin as python"
    (run-python (current-input-port) python-path))
 
+  ("--interp-py" "Interpret stdin as python using py-prelude.py"
+   (define results ((mk-python-cmdline-eval python-path) "stdin" (current-input-port)))
+   (display (car results) (current-output-port))
+   (display (cdr results) (current-error-port)))
+
   ("--get-syntax" "Get s-exp for python"
    (pretty-write (parse-python/port (current-input-port) python-path)))
 
   ("--test" dirname "Run all tests in dirname"
    (display (results-summary (run-tests (mk-proc-eval/silent run-python) dirname))))
+
+  ("--test-py" dirname "Run all tests in dirname using python"
+   (display (results-summary (run-tests (mk-python-cmdline-eval python-path) dirname))))
 
   ("--python-path" path "Set the python path"
    (set! python-path path))

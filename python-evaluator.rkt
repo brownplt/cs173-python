@@ -2,7 +2,7 @@
 
 (require racket/runtime-path)
 
-(provide mk-proc-eval/silent mk-cmdline-eval)
+(provide mk-proc-eval/silent mk-python-cmdline-eval)
 
 ;; mk-proc-eval/inner : (string * input-port -> 'a) ('a -> void) (port * error -> void)
 ;; -> (pairof string string)
@@ -35,10 +35,13 @@
     (λ (value) (display "got a value"))
     (λ (error port) (display error port))))
 
-(define (mk-cmdline-eval some-cmdline-path some-cmdline-args)
+(define PRELUDE "py-prelude.py")
+
+(define (mk-python-cmdline-eval some-cmdline-path)
   (λ (name port)
     (define input-src (port->string port))
-    (define proc (process* some-cmdline-path some-cmdline-args))
+    (define proc (process some-cmdline-path))
+    (display (file->string PRELUDE) (second proc))
     (display input-src (second proc))
     (display eof (second proc))
     (flush-output (second proc))
