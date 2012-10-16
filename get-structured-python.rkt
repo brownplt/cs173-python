@@ -1,9 +1,8 @@
-#lang racket/base
+#lang plai
 
 (require "python-syntax.rkt")
 (require racket/match
          racket/list)
-(provide get-structured-python)
 
 #|
 
@@ -45,14 +44,14 @@ arguments if you parse the expression "5 and 3", for example.
     [_ s-exp]))
 
 (define (get-structured-python s-exp)
-  (define filtered (filter-cruft s-exp))
+  (local [(define filtered (filter-cruft s-exp))]
   (match filtered
     [`(print_stmt "print" ,e)
      (PyApp (PyId 'print) (list (get-structured-python e)))]
     ;; singleton tuple case, you will need to handle the multi-tuple case
     [`(atom "(" ,e ")") (get-structured-python e)]
     [`(atom ,e) (parse-atom e)]
-    [_ (error 'parse (format "Haven't handled a case yet: ~a" s-exp))]))
+    [_ (error 'parse (format "Haven't handled a case yet: ~a" s-exp))])))
 
 #|
 
@@ -67,7 +66,7 @@ Disclaimer: This certainly doesn't cover all cases.
 |#
 (define (parse-atom e)
   (cond
-    ;; note, string->number returns false for non-numeric strings
+    ;; NOTE: string->number returns false for non-numeric strings
     [(string->number e) (PyNum (string->number e))]
     ;; more cases for detecting string literals, identifiers, etc.
   ))
