@@ -15,7 +15,7 @@
     (python-lib
       (desugar
         (get-structured-python
-          (parse-python/port name port))))))
+          (parse-python/port port))))))
 
 (command-line
   #:once-each
@@ -23,7 +23,7 @@
    (run-python "stdin" (current-input-port)))
 
   ("--get-syntax" "Get s-exp for python"
-   (pretty-write (parse-python/port "stdin" (current-input-port))))
+   (pretty-write (parse-python/port (current-input-port))))
 
   ("--test" dirname "Run all tests in dirname"
    (display (results-summary (run-tests (mk-proc-eval/silent run-python) dirname))))

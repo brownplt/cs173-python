@@ -14,6 +14,9 @@
     [CLet (x bind body)
       (interp-env body (hash-set env x (interp-env bind env)))]
 
+    [CSeq (e1 e2)
+      (begin (interp-env e1 env) (interp-env e2 env))]
+
     [CApp (fun arges)
      (type-case CVal (interp-env fun env)
        [VClosure (env argxs body)

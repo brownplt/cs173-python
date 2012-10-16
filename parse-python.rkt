@@ -1,60 +1,26 @@
-#lang racket
+#lang racket/base
 
-(require "autogrammar/examples/python-grammar.rkt"
-         "python-tokenizer/main.rkt"
-         racket/generator
-         parser-tools/lex
-         racket/match)
+(require racket/system racket/list)
+(require (planet dherman/json:4:0))
 
-(define (tokenize/1 ip)
-  (default-lex/1 ip))
+(define PYTHON "/home/joe/bin/python")
 
-(define (adapt-python-tokenizer ip)
-  (define tokens (sequence->generator (generate-tokens ip)))
-  (lambda ()
-    (let loop ()
-      (define next-token (tokens))
-      (match next-token
-        [(list type text (list start-line start-col) (list end-line end-col) rest-string)
-         ;; FIXME: improve the Python tokenizer to hold offsets too.
-         (define start-pos (position #f start-line start-col))
-         (define end-pos (position #f end-line end-col))
-         (position-token (case type
-                           [(NAME) 
-                            (cond [(hash-has-key? all-tokens-hash (string->symbol text))
-                                   ((hash-ref all-tokens-hash (string->symbol text)) text)]
-                                  [else
-                                   (token-NAME text)])]
-                           [(OP)
-                            ((hash-ref all-tokens-hash (string->symbol text)) text)]
-                           [(NUMBER) 
-                            (token-NUMBER text)]
-                           [(STRING) 
-                            (token-STRING text)]
-                           [(COMMENT) 
-                            (loop)]
-                           [(NL NEWLINE)
-                            (token-NEWLINE text)]
-                           [(DEDENT) 
-                            (token-DEDENT text)]
-                           [(INDENT)
-                            (token-INDENT text)]
-                           [(ERRORTOKEN)
-                            (error 'uh-oh)]
-                           [(ENDMARKER) 
-                            (token-ENDMARKER text)])
-                         start-pos
-                         end-pos)]
-        [(? void)
-         (token-EOF eof)]))))
-  
+(define (get-parsed-json input-port (python-path PYTHON))
+  (define stdout (open-output-string "stdout"))
+  (define stderr (open-output-string "stderr"))
+  (define proc (process*/ports stdout input-port stderr python-path "python-parser.py"))
+  ((fifth proc) 'wait) 
+  (define err-output (get-output-string stderr))
+  (when (not (equal? err-output ""))
+    (error 'parse (format "Couldn't parse python file with python-parser.py.  Error was: \n ~a" err-output)))
+  (define std-output (get-output-string stdout))
+  (json->jsexpr std-output))
 
+(define (parse-python/string s)
+  (parse-python/port (open-input-string s)))
 
-(define (parse-python/string name s)
-  (parse-python/port name (open-input-string s)))
-
-(define (parse-python/port name port)
-  (syntax->datum (parse name (adapt-python-tokenizer port))))
+(define (parse-python/port port)
+  (get-parsed-json port))
 
 (provide parse-python/port parse-python/string)
 

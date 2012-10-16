@@ -9,6 +9,7 @@ ParselTongue.
 
 (define-type CExp
   [CNum (n : number)]
+  [CSeq (e1 : CExp) (e2 : CExp)]
   [CId (x : symbol)]
   [CLet (x : symbol) (bind : CExp) (body : CExp)]
   [CApp (fun : CExp) (args : (listof CExp))]
