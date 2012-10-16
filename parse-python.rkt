@@ -3,9 +3,7 @@
 (require racket/system racket/list)
 (require (planet dherman/json:4:0))
 
-(define PYTHON "/home/joe/bin/python")
-
-(define (get-parsed-json input-port (python-path PYTHON))
+(define (get-parsed-json input-port python-path)
   (define stdout (open-output-string "stdout"))
   (define stderr (open-output-string "stderr"))
   (define proc (process*/ports stdout input-port stderr python-path "python-parser.py"))
@@ -16,11 +14,11 @@
   (define std-output (get-output-string stdout))
   (json->jsexpr std-output))
 
-(define (parse-python/string s)
-  (parse-python/port (open-input-string s)))
+(define (parse-python/string s python-path)
+  (parse-python/port (open-input-string s) python-path))
 
-(define (parse-python/port port)
-  (get-parsed-json port))
+(define (parse-python/port port python-path)
+  (get-parsed-json port python-path))
 
 (provide parse-python/port parse-python/string)
 

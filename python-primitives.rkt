@@ -17,7 +17,10 @@ primitives here.
 (define (pretty arg)
   (type-case CVal arg
     [VNum (n) (to-string n)]
+    [VStr (s) s]
+    [VTrue () "true"]
     [VClosure (env args body) (error 'prim "Can't print closures yet")]))
+  
 
 (define (print arg)
   (display (pretty arg)))

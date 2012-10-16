@@ -33,5 +33,5 @@ structure that you define in python-syntax.rkt
     [(hash-table ('type "Num")
                  ('n n))
      (PyNum n)]
-    [else (error 'parse "Haven't handled a case yet")]))
+    [_ (error 'parse "Haven't handled a case yet")]))
 

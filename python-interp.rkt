@@ -6,6 +6,14 @@
 (define (interp-env expr env)
   (type-case CExp expr
     [CNum (n) (VNum n)]
+    [CStr (s) (VStr s)]
+    [CTrue () (VTrue)]
+
+    [CError (e) (error 'interp (to-string (interp-env e env)))]
+
+    [CIf (i t e) (type-case CVal (interp-env i env)
+      [VTrue () (interp-env t env)]
+      [else (interp-env e env)])]
 
     [CId (x) (type-case (optionof CVal) (hash-ref env x)
       [some (v) v]

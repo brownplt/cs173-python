@@ -14,15 +14,26 @@ that calls the primitive `print`.
 
 (define-type-alias Lib (CExp -> CExp))
 
-(define print-lambda : CExp
+(define print-lambda
   (CFunc (list 'to-print)
     (CPrim1 'print (CId 'to-print))))
+
+(define assert-true-lambda
+  (CFunc (list 'check-true)
+    (CIf (CId 'check-true) (CTrue) (CError (CStr "Assert failed")))))
+
+(define true-val
+  (CTrue))
 
 (define-type LibBinding
   [bind (left : symbol) (right : CExp)])
 
 (define lib-functions
-  (list (bind 'print print-lambda)))
+  (list (bind 'print print-lambda)
+        (bind 'True true-val)
+        (bind '___assertTrue assert-true-lambda)
+
+))
 
 (define (python-lib expr)
   (local [(define (python-lib/recur libs)
