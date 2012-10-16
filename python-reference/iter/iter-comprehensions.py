@@ -22,4 +22,4 @@ ___assertEqual(res, TRIPLETS)
 
 seq = range(3)
 res = [(i, j, k) for i in seq for j in seq for k in seq]
-self.assertEqual(res, TRIPLETS)
+___assertEqual(res, TRIPLETS)

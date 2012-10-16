@@ -16,7 +16,7 @@ def f(x):
         locals()
     return C
 
-self.assertEqual(f(1).x, 12)
+___assertEqual(f(1).x, 12)
 
 def f(x):
     class C:

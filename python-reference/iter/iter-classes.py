@@ -27,7 +27,7 @@ class SequenceClass:
             raise IndexError
 
 # Helper to check that an iterator returns a given sequence
-def check_iterator(self, it, seq):
+def check_iterator(it, seq):
     res = []
     while 1:
         try:
@@ -38,7 +38,7 @@ def check_iterator(self, it, seq):
     ___assertEqual(res, seq)
 
 # Helper to check that a for loop generates a given sequence
-def check_for_loop(self, expr, seq):
+def check_for_loop(expr, seq):
     res = []
     for val in expr:
         res.append(val)
