@@ -1,2 +1,2 @@
-self.assertTrue(not [])
-self.assertTrue([42])
+___assertTrue(not [])
+___assertTrue([42])
