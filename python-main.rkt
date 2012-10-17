@@ -10,7 +10,10 @@
          "run-tests.rkt"
          "python-evaluator.rkt")
 
-(define (run-python _ port)
+(define (python-test-runner _ port)
+  (run-python port))
+
+(define (run-python port)
   (interp
     (python-lib
       (desugar
@@ -22,7 +25,7 @@
 (command-line
   #:once-each
   ("--interp" "Interpret stdin as python"
-   (run-python (current-input-port) python-path))
+   (run-python (current-input-port)))
 
   ("--interp-py" "Interpret stdin as python using py-prelude.py"
    (define results ((mk-python-cmdline-eval python-path) "stdin" (current-input-port)))
@@ -33,7 +36,7 @@
    (pretty-write (parse-python/port (current-input-port) python-path)))
 
   ("--test" dirname "Run all tests in dirname"
-   (display (results-summary (run-tests (mk-proc-eval/silent run-python) dirname))))
+   (display (results-summary (run-tests (mk-proc-eval/silent python-test-runner) dirname))))
 
   ("--test-py" dirname "Run all tests in dirname using python"
    (display (results-summary (run-tests (mk-python-cmdline-eval python-path) dirname))))
