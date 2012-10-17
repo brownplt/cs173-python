@@ -10,7 +10,7 @@
          "run-tests.rkt"
          "python-evaluator.rkt")
 
-(define (run-python port python-path)
+(define (run-python _ port)
   (interp
     (python-lib
       (desugar
