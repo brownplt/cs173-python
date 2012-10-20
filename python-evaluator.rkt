@@ -32,7 +32,7 @@
 ;; harness is set to do no printing
 (define (mk-proc-eval/silent evaluator)
   (mk-proc-eval/inner evaluator
-    (λ (value) (display "got a value"))
+    (λ (value) '())
     (λ (error port) (display error port))))
 
 (define PRELUDE "py-prelude.py")
