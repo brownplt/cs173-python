@@ -20,7 +20,7 @@ class QuickVisitor(ast.NodeVisitor):
       else: raise JSONVisitorException("Unexpected error: Missed case.  Please report.")
 
     n_dict = dict([(f,get_item(v)) for (f,v) in fields])
-    n_dict['type'] = n.__class__.__name__
+    n_dict['nodetype'] = n.__class__.__name__
     return n_dict
 
 if __name__ == '__main__':

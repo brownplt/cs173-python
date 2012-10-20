@@ -14,11 +14,11 @@ structure that you define in python-syntax.rkt
 
 (define (get-structured-python pyjson)
   (match pyjson
-    [(hash-table ('type "Module") ('body expr-list))
+    [(hash-table ('nodetype "Module") ('body expr-list))
      (PySeq (map get-structured-python expr-list))]
-    [(hash-table ('type "Expr") ('value expr))
+    [(hash-table ('nodetype "Expr") ('value expr))
      (get-structured-python expr)]
-    [(hash-table ('type "Call")
+    [(hash-table ('nodetype "Call")
                  ('keywords keywords) ;; ignoring keywords for now
                  ('kwargs kwargs)     ;; ignoring kwargs for now
                  ('starargs starargs) ;; ignoring starargs for now
@@ -26,11 +26,11 @@ structure that you define in python-syntax.rkt
                  ('func func-expr))
      (PyApp (get-structured-python func-expr)
             (map get-structured-python args-list))]
-    [(hash-table ('type "Name")
+    [(hash-table ('nodetype "Name")
                  ('ctx _)        ;; ignoring ctx for now
                  ('id id))
      (PyId (string->symbol id))]
-    [(hash-table ('type "Num")
+    [(hash-table ('nodetype "Num")
                  ('n n))
      (PyNum n)]
     [_ (error 'parse "Haven't handled a case yet")]))
