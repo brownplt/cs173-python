@@ -27,8 +27,8 @@
 
     [CApp (fun arges)
      (type-case CVal (interp-env fun env)
-       [VClosure (env argxs body)
-         (local [(define argvs (map (lambda (e) (interp-env e env)) arges))]
+       [VClosure (cenv argxs body)
+         (local [(define argvs (map (lambda (e) (interp-env e cenv)) arges))]
           (interp-env body (bind-args argxs argvs env)))]
        [else (error 'interp "Not a closure")])]
 
