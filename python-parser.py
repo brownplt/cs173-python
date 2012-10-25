@@ -17,7 +17,7 @@ class QuickVisitor(ast.NodeVisitor):
       elif t == list: return list(map (lambda elt: get_item(elt), v))
       elif isinstance(v, ast.AST): return self.visit(v)
       elif t in [int, float, str]: return v
-      elif t in [complex]: return {'nodetype': 'complex', 'value': str(t)}
+      elif t in [complex]: return {'nodetype': 'Complex', 'value': str(v)}
       else:
         raise JSONVisitorException("Unexpected error: Missed case: %s.  Please report to the TAs."
           % v)
