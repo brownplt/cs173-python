@@ -1,5 +1,6 @@
 #lang racket/base
 
+(require (planet dherman/json:4:0))
 (require racket/cmdline
          racket/pretty
          "parse-python.rkt"
@@ -44,4 +45,9 @@
   ("--python-path" path "Set the python path"
    (set! python-path path))
 
+  ("--progress-report" dirname "Generate a soft report"
+   (printf "~a\n"
+    (jsexpr->json
+     (json-summary
+      (run-tests (mk-proc-eval/silent python-test-runner) dirname)))))
 )

@@ -45,7 +45,8 @@
           [(cons? interp-output)
            (values (car interp-output) (cdr interp-output))]))
   (define timed-out? (not interp-output))
-  (Result (TestSpec-program-name test-spec)
+  (define-values (_ name __) (split-path (TestSpec-program-name test-spec)))
+  (Result name
           timed-out?
           (TestSpec-output test-spec)
           stdout
