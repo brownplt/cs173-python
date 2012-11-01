@@ -18,6 +18,7 @@ class QuickVisitor(ast.NodeVisitor):
       elif isinstance(v, ast.AST): return self.visit(v)
       elif t in [int, float, str]: return v
       elif t in [complex]: return {'nodetype': 'Complex', 'value': str(v)}
+      elif t in [bytes]: return {'nodetype': 'Bytes', 'value': str(v)}
       else:
         raise JSONVisitorException("Unexpected error: Missed case: %s.  Please report to the TAs."
           % v)
@@ -28,3 +29,4 @@ class QuickVisitor(ast.NodeVisitor):
 
 if __name__ == '__main__':
   print(json.dumps(QuickVisitor().visit(ast.parse(sys.stdin.read()))))
+
