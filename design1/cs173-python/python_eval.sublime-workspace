@@ -1,0 +1,776 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"i",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"memtop_",
+				"memtop_getProcess"
+			],
+			[
+				"mem",
+				"mem_fd"
+			],
+			[
+				"memtop",
+				"memtop_info_t"
+			],
+			[
+				"in",
+				"include"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "get-structured-python.rkt",
+			"settings":
+			{
+				"buffer_size": 4602,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README",
+			"settings":
+			{
+				"buffer_size": 752,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python-core-syntax.rkt",
+			"settings":
+			{
+				"buffer_size": 1157,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python-desugar.rkt",
+			"settings":
+			{
+				"buffer_size": 1193,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python-interp.rkt",
+			"settings":
+			{
+				"buffer_size": 3737,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python-lib.rkt",
+			"settings":
+			{
+				"buffer_size": 1250,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python-main.rkt",
+			"settings":
+			{
+				"buffer_size": 1395,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python-primitives.rkt",
+			"settings":
+			{
+				"buffer_size": 727,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python-syntax.rkt",
+			"settings":
+			{
+				"buffer_size": 788,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/typed-interp-exn.rkt",
+			"settings":
+			{
+				"buffer_size": 29824,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/typed-desugar-exn.rkt",
+			"settings":
+			{
+				"buffer_size": 12685,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/gpfs/main/home/jwoberbe/course/cs173/assignment5/parseltongue-lang/typed-lang.rkt",
+			"settings":
+			{
+				"buffer_size": 3646,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 369.0,
+		"selected_items":
+		[
+			[
+				"paca",
+				"Package Control: List Packages"
+			],
+			[
+				"liap",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/cody/cs173-python/plan.txt",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/typed-desugar-exn.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/parseltongue-lang/typed-lang.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/run-tests.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/parse-python.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/get-structured-python.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/python-syntax.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/python-primitives.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs123/lab04/src/canvas.cpp",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/python-main.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/python-lib.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/python-desugar.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/python-core-syntax.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/python-interp.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/TODO",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/plan.txt",
+		"/gpfs/main/home/jwoberbe/.config/sublime-text-2/Packages/JsFormat/Default (Linux).sublime-keymap",
+		"/gpfs/main/home/jwoberbe/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/test",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/python-evaluator.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs123/algo_sceneview.txt",
+		"/gpfs/main/home/jwoberbe/course/math158/fuck_life.py",
+		"/gpfs/main/home/jwoberbe/course/cs123/README_camtrans.txt",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/py-scope-tests/loop2.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/final",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/jsrep",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/py-scope-tests/bind1.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/py-scope-tests/cond1.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/py-scope-tests/fun1.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/py-scope-tests/fun2.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/py-scope-tests/fun3.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/py-scope-tests/loop3.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/py-scope-tests/loop4.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/incl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/py-scope-tests/incl_decl2.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/py-scope-tests/incl_decl.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/py-scope-tests/loop1.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/pyrep",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/pyrep2",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/js-scope-tests/loop1.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/js-scope-tests/undef1.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/js-scope-tests/ass1.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/js-scope-tests/fun1.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/exn",
+		"/course/cs033/ta/jwoberbe/grading/maze/meldon/rubric.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/mgs3/rubric.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/mgs3/README.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/mac10/rubric.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/mdburns/rubric.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/meldon/solver.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/meldon/generator.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/marroz/my_header.h",
+		"/course/cs033/ta/jwoberbe/grading/maze/maskari/generator.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/maskari/solver.h",
+		"/course/cs033/ta/jwoberbe/grading/maze/maskari/rubric.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/maskari/solver.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/marroz/generator.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/marroz/rubric.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/kloh/generator.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/iprentic/util.h",
+		"/course/cs033/ta/jwoberbe/grading/maze/kwng/rubric.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/kloh/rubric.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/fsteen/rubric.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/fsteen/rubric_complete.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/iprentic/solver.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/iprentic/README.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/iprentic/generator.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/iprentic/rubric.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/fsteen/solver.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/fsteen/maze_h.h",
+		"/course/cs033/ta/jwoberbe/grading/maze/fsteen/maze.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/fsteen/generator.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/fsteen/README",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/typed-interp-py.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/pyres",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/pyout",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/js",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/js_rep",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/plan.txt",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/tests",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/py-scope-tests/loop3.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/exnrep.txt",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/report1.txt",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/report.txt",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/report2.txt",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/prim2",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/brown1",
+		"/gpfs/main/home/jwoberbe/course/cs173/ParselCore/interp-bundle/assignment4-suite/brown/assign/prim-assign2.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/msg",
+		"/gpfs/main/home/jwoberbe/course/cs173/gc/3.txt",
+		"/gpfs/main/home/jwoberbe/course/cs173/gc/1.txt",
+		"/gpfs/main/home/jwoberbe/course/cs173/gc/problems.txt",
+		"/gpfs/main/home/jwoberbe/course/cs173/gc/2.txt",
+		"/home/jwoberbe/course/cs123/algo_camtrans.txt",
+		"/course/cs033/ta/jwoberbe/grading/data/vgavriel/bits.c",
+		"/course/cs033/ta/jwoberbe/grading/data/tmellor/bits.c",
+		"/course/cs033/ta/jwoberbe/grading/data/tlloyd/bits.c",
+		"/course/cs033/ta/jwoberbe/grading/data/tc28/bits.c",
+		"/course/cs033/ta/jwoberbe/grading/data/tbenster/bits.c",
+		"/course/cs033/ta/jwoberbe/grading/data/taparson/bits.c",
+		"/gpfs/main/home/jwoberbe/course/cs173/ParselCore/err",
+		"/gpfs/main/home/jwoberbe/course/cs173/ParselCore/report.txt",
+		"/gpfs/main/home/jwoberbe/course/cs123/README_filter.txt",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/zsalmon/solver.c",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/zsalmon/README.txt",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/zsalmon/generator.c",
+		"/home/jwoberbe/Downloads/rubric.txt",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/zsalmon/rubric.txt",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/nfradin/solver.c",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/nfradin/room.h",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/nfradin/generator.c",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/nfradin/rubric.txt",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/mp42/rubric.txt",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/nfradin/README.txt",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/mp42/maze_header.h",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/mp42/generator.c",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/mp42/solver.c",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/mp42/README.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/ml137/rubric.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/ml137/maze/solver.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/ml137/maze/mazeheader.h",
+		"/course/cs033/ta/jwoberbe/grading/maze/ml137/maze/generator.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/ml137/maze/README.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/mjrowlan/rubric.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/mjrowlan/solver.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/mjrowlan/maze.h",
+		"/course/cs033/ta/jwoberbe/grading/maze/mjrowlan/helpers.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/mjrowlan/generator.c"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" \\\\",
+			"}",
+			" \\\\",
+			"}",
+			" \\\\",
+			"}",
+			" \\\\",
+			"}",
+			" \\\\",
+			"false,",
+			"computed",
+			"}",
+			" \\\\",
+			"}",
+			" \\\\",
+			"}",
+			" \\\\",
+			"}",
+			" \\\\",
+			" \\\\\\",
+			"}",
+			"},",
+			" \\\\",
+			" \\\\\\\\",
+			" \\\\\\",
+			" \\",
+			"false",
+			", ",
+			"fclose",
+			"direction_define",
+			"port",
+			"free",
+			"print",
+			"\\n",
+			",",
+			"malloc"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\n",
+			"                                           ",
+			"\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "get-structured-python.rkt",
+					"settings":
+					{
+						"buffer_size": 4602,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2084,
+								2084
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README",
+					"settings":
+					{
+						"buffer_size": 752,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								752,
+								752
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "python-core-syntax.rkt",
+					"settings":
+					{
+						"buffer_size": 1157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "python-desugar.rkt",
+					"settings":
+					{
+						"buffer_size": 1193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "python-interp.rkt",
+					"settings":
+					{
+						"buffer_size": 3737,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "python-lib.rkt",
+					"settings":
+					{
+						"buffer_size": 1250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "python-main.rkt",
+					"settings":
+					{
+						"buffer_size": 1395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "python-primitives.rkt",
+					"settings":
+					{
+						"buffer_size": 727,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "python-syntax.rkt",
+					"settings":
+					{
+						"buffer_size": 788,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/typed-interp-exn.rkt",
+					"settings":
+					{
+						"buffer_size": 29824,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9070,
+								9070
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1395.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/typed-desugar-exn.rkt",
+					"settings":
+					{
+						"buffer_size": 12685,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								878,
+								878
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1215.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/gpfs/main/home/jwoberbe/course/cs173/assignment5/parseltongue-lang/typed-lang.rkt",
+					"settings":
+					{
+						"buffer_size": 3646,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1679,
+								1679
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 495.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

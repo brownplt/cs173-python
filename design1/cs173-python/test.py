@@ -1,0 +1,7 @@
+print(5)
+print(True)
+print(True and False)
+print("a")
+print('a')
+print(9 + 9)
+print(9 < 9)

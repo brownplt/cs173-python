@@ -1,0 +1,980 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"i",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"memtop_",
+				"memtop_getProcess"
+			],
+			[
+				"mem",
+				"mem_fd"
+			],
+			[
+				"memtop",
+				"memtop_info_t"
+			],
+			[
+				"in",
+				"include"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "python-json/python-reference/types/test_div_zero.py",
+			"settings":
+			{
+				"buffer_size": 8977,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python-reference/types/test_div_zero.py",
+			"settings":
+			{
+				"buffer_size": 658,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python-reference/types/test_floats.py",
+			"settings":
+			{
+				"buffer_size": 349,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python-reference/types/test_simple_string_ops.py",
+			"settings":
+			{
+				"buffer_size": 397,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python-reference/types/test_simple_strings.py",
+			"settings":
+			{
+				"buffer_size": 152,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python-reference/types/test_booleans.py",
+			"settings":
+			{
+				"buffer_size": 202,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python-reference/types/test_comparisons.py",
+			"settings":
+			{
+				"buffer_size": 363,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python-reference/types/test_string_slices.py",
+			"settings":
+			{
+				"buffer_size": 581,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python-reference/types/types_truthy1.py",
+			"settings":
+			{
+				"buffer_size": 472,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python-reference/types/types_truthy2.py",
+			"settings":
+			{
+				"buffer_size": 204,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python-json/python-reference/types/test_floats.py",
+			"settings":
+			{
+				"buffer_size": 9122,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python-json/python-reference/types/test_simple_string_ops.py",
+			"settings":
+			{
+				"buffer_size": 8778,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python-json/python-reference/types/test_simple_strings.py",
+			"settings":
+			{
+				"buffer_size": 4230,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python-json/python-reference/types/test_string_slices.py",
+			"settings":
+			{
+				"buffer_size": 20143,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python-json/python-reference/types/types_truthy1.py",
+			"settings":
+			{
+				"buffer_size": 6972,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python-json/python-reference/types/types_truthy2.py",
+			"settings":
+			{
+				"buffer_size": 4301,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python-json/python-reference/types/test_booleans.py",
+			"settings":
+			{
+				"buffer_size": 2958,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python-json/python-reference/types/test_comparisons.py",
+			"settings":
+			{
+				"buffer_size": 6319,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 369.0,
+		"selected_items":
+		[
+			[
+				"paca",
+				"Package Control: List Packages"
+			],
+			[
+				"liap",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/cody/cs173-python/python-json/python-reference/types/test_simple_string_ops.py",
+		"/home/cody/cs173-python/python-reference/types/test_simple_string_ops.py",
+		"/home/cody/cs173-python/python-reference/types/test_simple_strings.py",
+		"/home/cody/cs173-python/python-json/python-reference/types/test_simple_strings.py",
+		"/home/cody/cs173-python/python-reference/types/test_comparisons.py",
+		"/home/cody/cs173-python/python-json/python-reference/types/test_comparisons.py",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/typed-interp-exn.rkt",
+		"/home/cody/cs173-python/python-reference/types/test_booleans.py",
+		"/home/cody/cs173-python/python-json/python-reference/types/test_booleans.py",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/parseltongue-lang/typed-lang.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/run-tests.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/parse-python.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/get-structured-python.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/python-syntax.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/python-primitives.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs123/lab04/src/canvas.cpp",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/python-main.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/python-lib.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/python-desugar.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/python-core-syntax.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/python-interp.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/TODO",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/plan.txt",
+		"/gpfs/main/home/jwoberbe/.config/sublime-text-2/Packages/JsFormat/Default (Linux).sublime-keymap",
+		"/gpfs/main/home/jwoberbe/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/test",
+		"/gpfs/main/home/jwoberbe/course/cs173/cs173-python/python-evaluator.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs123/algo_sceneview.txt",
+		"/gpfs/main/home/jwoberbe/course/math158/fuck_life.py",
+		"/gpfs/main/home/jwoberbe/course/cs123/README_camtrans.txt",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/py-scope-tests/loop2.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/final",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/jsrep",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/py-scope-tests/bind1.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/py-scope-tests/cond1.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/py-scope-tests/fun1.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/py-scope-tests/fun2.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/py-scope-tests/fun3.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/py-scope-tests/loop3.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/py-scope-tests/loop4.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/incl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/py-scope-tests/incl_decl2.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/py-scope-tests/incl_decl.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/py-scope-tests/loop1.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/pyrep",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/pyrep2",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/js-scope-tests/loop1.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/js-scope-tests/undef1.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/js-scope-tests/ass1.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/js-scope-tests/fun1.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/exn",
+		"/course/cs033/ta/jwoberbe/grading/maze/meldon/rubric.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/mgs3/rubric.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/mgs3/README.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/mac10/rubric.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/mdburns/rubric.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/meldon/solver.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/meldon/generator.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/marroz/my_header.h",
+		"/course/cs033/ta/jwoberbe/grading/maze/maskari/generator.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/maskari/solver.h",
+		"/course/cs033/ta/jwoberbe/grading/maze/maskari/rubric.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/maskari/solver.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/marroz/generator.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/marroz/rubric.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/kloh/generator.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/iprentic/util.h",
+		"/course/cs033/ta/jwoberbe/grading/maze/kwng/rubric.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/kloh/rubric.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/fsteen/rubric.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/fsteen/rubric_complete.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/iprentic/solver.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/iprentic/README.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/iprentic/generator.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/iprentic/rubric.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/fsteen/solver.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/fsteen/maze_h.h",
+		"/course/cs033/ta/jwoberbe/grading/maze/fsteen/maze.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/fsteen/generator.c",
+		"/course/cs033/ta/jwoberbe/grading/maze/fsteen/README",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/typed-interp-py.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/pyres",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/pyout",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/js",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/js_rep",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/plan.txt",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/tests",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/tests/py-scope-tests/loop3.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/exnrep.txt",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/report1.txt",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/typed-desugar-exn.rkt",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/report.txt",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/report2.txt",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/prim2",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/brown1",
+		"/gpfs/main/home/jwoberbe/course/cs173/ParselCore/interp-bundle/assignment4-suite/brown/assign/prim-assign2.psl",
+		"/gpfs/main/home/jwoberbe/course/cs173/assignment5/evaluators/msg",
+		"/gpfs/main/home/jwoberbe/course/cs173/gc/3.txt",
+		"/gpfs/main/home/jwoberbe/course/cs173/gc/1.txt",
+		"/gpfs/main/home/jwoberbe/course/cs173/gc/problems.txt",
+		"/gpfs/main/home/jwoberbe/course/cs173/gc/2.txt",
+		"/home/jwoberbe/course/cs123/algo_camtrans.txt",
+		"/course/cs033/ta/jwoberbe/grading/data/vgavriel/bits.c",
+		"/course/cs033/ta/jwoberbe/grading/data/tmellor/bits.c",
+		"/course/cs033/ta/jwoberbe/grading/data/tlloyd/bits.c",
+		"/course/cs033/ta/jwoberbe/grading/data/tc28/bits.c",
+		"/course/cs033/ta/jwoberbe/grading/data/tbenster/bits.c",
+		"/course/cs033/ta/jwoberbe/grading/data/taparson/bits.c",
+		"/gpfs/main/home/jwoberbe/course/cs173/ParselCore/err",
+		"/gpfs/main/home/jwoberbe/course/cs173/ParselCore/report.txt",
+		"/gpfs/main/home/jwoberbe/course/cs123/README_filter.txt",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/zsalmon/solver.c",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/zsalmon/README.txt",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/zsalmon/generator.c",
+		"/home/jwoberbe/Downloads/rubric.txt",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/zsalmon/rubric.txt",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/nfradin/solver.c",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/nfradin/room.h",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/nfradin/generator.c",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/nfradin/rubric.txt",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/mp42/rubric.txt",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/nfradin/README.txt",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/mp42/maze_header.h",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/mp42/generator.c",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/mp42/solver.c",
+		"/gpfs/main/course/cs033/ta/jwoberbe/grading/maze/mp42/README.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/ml137/rubric.txt",
+		"/course/cs033/ta/jwoberbe/grading/maze/ml137/maze/solver.c"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Is",
+			"None",
+			" \\\\",
+			"}",
+			" \\\\",
+			"}",
+			" \\\\",
+			"}",
+			" \\\\",
+			"}",
+			" \\\\",
+			"false,",
+			"computed",
+			"}",
+			" \\\\",
+			"}",
+			" \\\\",
+			"}",
+			" \\\\",
+			"}",
+			" \\\\",
+			" \\\\\\",
+			"}",
+			"},",
+			" \\\\",
+			" \\\\\\\\",
+			" \\\\\\",
+			" \\",
+			"false",
+			", ",
+			"fclose",
+			"direction_define",
+			"port",
+			"free",
+			"print",
+			"\\n",
+			",",
+			"malloc"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\n",
+			"                                           ",
+			"\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "python-json/python-reference/types/test_div_zero.py",
+					"settings":
+					{
+						"buffer_size": 8977,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "python-reference/types/test_div_zero.py",
+					"settings":
+					{
+						"buffer_size": 658,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "python-reference/types/test_floats.py",
+					"settings":
+					{
+						"buffer_size": 349,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "python-reference/types/test_simple_string_ops.py",
+					"settings":
+					{
+						"buffer_size": 397,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "python-reference/types/test_simple_strings.py",
+					"settings":
+					{
+						"buffer_size": 152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								79
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "python-reference/types/test_booleans.py",
+					"settings":
+					{
+						"buffer_size": 202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								191,
+								191
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "python-reference/types/test_comparisons.py",
+					"settings":
+					{
+						"buffer_size": 363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								363,
+								363
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "python-reference/types/test_string_slices.py",
+					"settings":
+					{
+						"buffer_size": 581,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "python-reference/types/types_truthy1.py",
+					"settings":
+					{
+						"buffer_size": 472,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "python-reference/types/types_truthy2.py",
+					"settings":
+					{
+						"buffer_size": 204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "python-json/python-reference/types/test_floats.py",
+					"settings":
+					{
+						"buffer_size": 9122,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "python-json/python-reference/types/test_simple_string_ops.py",
+					"settings":
+					{
+						"buffer_size": 8778,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "python-json/python-reference/types/test_simple_strings.py",
+					"settings":
+					{
+						"buffer_size": 4230,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "python-json/python-reference/types/test_string_slices.py",
+					"settings":
+					{
+						"buffer_size": 20143,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "python-json/python-reference/types/types_truthy1.py",
+					"settings":
+					{
+						"buffer_size": 6972,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								162,
+								162
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "python-json/python-reference/types/types_truthy2.py",
+					"settings":
+					{
+						"buffer_size": 4301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "python-json/python-reference/types/test_booleans.py",
+					"settings":
+					{
+						"buffer_size": 2958,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "python-json/python-reference/types/test_comparisons.py",
+					"settings":
+					{
+						"buffer_size": 6319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5194,
+								5194
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2891.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
