@@ -1,0 +1,37 @@
+Languages
+=========
+
+In general, I've decide to actually include two levels of desugaring.
+The reason for this is that pythons surface syntax is reasonably complex,
+and so it would be nice to convert it to a minimal sort of python before
+trying to convert it to something that I want to CPS. So, CExp is a
+high-level core that has the control features of python (exceptions,
+early returns, generators), that in UExp have all been reduced to LetCC.
+
+PyExp
+-----
+This is a direct translation of the python AST. There is minimal logic
+in this translation.
+
+CExp
+----
+This is a core language that has fewer features than the surface, but
+still has all the general control structures: loops, exceptions, generators,
+return statements, etc. The desugaring should take care of most non-control
+aspects of the language. It should normalize and simplify some things.
+This is a medium-difficulty translation.
+
+UExp
+----
+This is a very minimal language, that has only primitive types, lambdas
+(single argument), let/cc, and branching. The desugaring from CExp to
+UExp is going to be the most complicated part of this whole process,
+and will be primarily complicated by control (all of the fancy things
+will be desugared into let/cc). The end result should be a very simple
+language.
+
+UExp-let/cc
+-----------
+This isn't truly a language, it is just the result of CPSing UExp, which
+will mean that let/cc has been removed. This is the language that we will
+interpret.
