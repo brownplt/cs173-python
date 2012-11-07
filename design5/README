@@ -1,0 +1,84 @@
+Tests: 
+
+So far we pass 7 tests of the provided 90: the 4 lambda?.py tests in
+scope, and in types test_booleans.py, test_comparisons.py, and
+test_floats.py. Hopefully, this number will increase in the near future,
+perhaps even before the design check. 
+
+
+Design: 
+
+Our core language consists of a set of types similar to that provided in
+parseltongue, with a few additions (a type corresponding to that "pass"
+instruction, for instance). 
+
+Our syntax language has something close to one type for each of the
+types in the AST python specification. Basically, everything that is
+parsed as a different type goes to a different clause in the desugarer.
+
+After analyzing how python scope works, we chose to implement ours with
+an environment and a store. Our store is just as the one taught in
+class, but our environment goes from an identifier to a (ScopeType *
+Location), with ScopeType being either 'Local', 'NonLocal' or 'Global'.
+This information is useful because there's a lot of perks related to
+this in python.
+
+One interesting decision is that we have to treat the 'global scope'
+differently from the others, with a case in the desugarer that handles
+just this (and is, therefore, executed just once). We'd like to talk
+about this, because there may be a more beautiful way of achieving what
+we want.
+
+We've also implemented a "VUnbound" type, which represents an unbound
+variable (but is never actually returned --- it is used for error
+checking) --- we want to discuss this as well, to make sure that it is a
+viable choice. 
+
+
+How Scope Works:
+
+Our environment goes from identifier to (type, location), where type can
+be: 1)Local, 2)Global, 3)NonLocal
+
+Besides the 'regular' environment, that we pass along with the store in
+interp-env, we have a global variable 'globalEnv' that keeps the 'global
+environment'.  When in the top-level scope, every variable is kept as
+Global. This is done by desugaring PyModule.
+
+When creating a new scope, we do it by the following steps. (look at the
+'newEnvScope' function to see the code)
+
+1) we add all of the variables in the older scope that are not of the
+type 'global'. We change the ones that have 'local' tags to 'nonlocal'.
+The 'global' ones don't need to be copied.
+
+2) we get a list of the global declarations inside of our body. We check
+if this variable is already in the global environment. If it is, we just
+put it in our current environment, overwriting it if there's already a
+variable with the same identifier but different type. If the variable is
+not yet in the global environment, we add it and then do the same
+process in the current environment.
+
+3) We get a list of the nonlocal declarations inside of our body. If our
+new environment already has one of them with a 'global' type, we throw
+an error. We also throw an error if our current environment does not
+have this variable (this either means we don't have it or the last time
+we used it was global). Else, we just keep the list, without changing
+the environment.
+
+4) we add all of the variables that are assigned inside of our body, and
+that ARE NOT IN THE GLOBAL/NONLOCAL lists, with the 'local' tag. We
+check if any of the parameters is in the globals/nonlocal list, and if
+it is, we throw an error. Then we add the parameters of the function
+with the 'local' tag.
+
+5) to search for a variable, we first check our environment. If it is
+there, ok. If not there, search the global environment. To mutate a
+variable, if it is in the environment, ok. If not, thrown an error.
+
+One important thing to notice is function application. In the last
+assignments, we just created the new environment during the application.
+Here, we create it when creating the closure. Because of this, we need
+to allocate a new position for all of the local variables when we apply
+the function.
+
