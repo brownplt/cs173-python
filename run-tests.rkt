@@ -41,7 +41,7 @@
   ;; Check for a false return from run-for-n-seconds, which indicates
   ;; a timeout happened
   (define-values (stdout stderr)
-    (cond [(false? interp-output) (values "" "")]
+    (cond [(false? interp-output) (values "TIMEOUT" "TIMEOUT")]
           [(cons? interp-output)
            (values (car interp-output) (cdr interp-output))]))
   (define timed-out? (not interp-output))
@@ -186,16 +186,14 @@
 
   (when (not (empty? failed)) (report "== Output of failed tests ==\n"))
   (for ((f failed))
-    (define (report-to s . args)
-      (when (not (Result-timeout? f)) (apply report (cons s args))))
     (report "=====================================================\n")
     (report "=   Results for ~a   =\n" (Result-name f))
     (report "=====================================================\n")
-    (when (Result-timeout? f) (report-to "TEST TIMED OUT"))
+    (when (Result-timeout? f) (report "TEST TIMED OUT\n"))
     (report "=== Expected stdout ===\n~a\n" (Result-expected-out f))
-    (report-to "=== Actual stdout ===\n~a\n" (Result-actual-out f))
+    (report "=== Actual stdout ===\n~a\n" (Result-actual-out f))
     (report "=== Expected stderr ===\n~a\n" (Result-expected-err f))
-    (report-to "=== Actual stderr ===\n~a\n" (Result-actual-err f)))
+    (report "=== Actual stderr ===\n~a\n" (Result-actual-err f)))
 
   (get-output-string report-string))
 
